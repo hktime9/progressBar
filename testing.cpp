@@ -14,7 +14,6 @@ int main()
 	test2ptr= &test2;
 	string symbol= "*";
 	thread startWorker(progressBar, test1ptr, test2ptr, symbol);
-	cout << endl;
 	while(*test2ptr>=*test1ptr)
 	{
 		*test1ptr+= 10;
