@@ -1,8 +1,6 @@
 #include <iostream>
 #include <thread> 
 #include <stdlib.h>
-#include <time.h>
-#include <chrono>
 
 using namespace std;
 
@@ -14,6 +12,7 @@ void progressBar(int* val, int *tarVal, string marker)
 		if(*val>*tarVal)
 		{
 			completed= 1;
+			cout << endl;
 		}
 		else
 		{
