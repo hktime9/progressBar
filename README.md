@@ -6,3 +6,5 @@ It needs three parameters:
 3) a string variable which is displayed to monitor progress
 A sample test code is written in the main routine
 C++ threads are used so the parent program needs this included
+This needs no additional flags and can be compiled using:
+g++ progressBar.cpp -o progressBar.exe
